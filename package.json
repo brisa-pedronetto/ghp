@@ -29,5 +29,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://brisa-pedronetto.github.io/ghp"
+  "homepage": "https://brisa-pedronetto.github.io/ghp",
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
+  }
 }
