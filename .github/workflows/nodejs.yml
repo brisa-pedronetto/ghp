@@ -22,7 +22,7 @@ jobs:
           npm run build --if-present
           git config --global user.email "pedro@brisa.is"
           git config --global user.name "brisa-pedronetto"
-          git remote set-url origin https://brisa-pedronetto:b8396aac5b382ee1c7fd2155fec25dbcfc50b2b6@github.com/brisa-pedronetto/ghp.git
+          git remote set-url origin https://brisa-pedronetto:e20d8df8d250cbfbce17a0538f74c270c6b9ab24@github.com/brisa-pedronetto/ghp.git
           npm run deploy
         env:
           CI: true
