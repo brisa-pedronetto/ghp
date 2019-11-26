@@ -19,10 +19,12 @@ jobs:
       - name: npm install, build, and test
         run: |
           npm ci
-          npm run build --if-present
-          git config --global user.email "pedro@brisa.is"
-          git config --global user.name "brisa-pedronetto"
-          git remote set-url origin https://848eca4fa24d031a08edb2b82ecd6b19b63ec211@github.com/brisa-pedronetto/ghp.git
-          npm run deploy
+          echo "blah" > test
+          cat test
+          # npm run build --if-present
+          # git config --global user.email "pedro@brisa.is"
+          # git config --global user.name "brisa-pedronetto"
+          # git remote set-url origin https://848eca4fa24d031a08edb2b82ecd6b19b63ec211@github.com/brisa-pedronetto/ghp.git
+          # npm run deploy
         env:
           CI: true
